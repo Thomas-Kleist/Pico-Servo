@@ -110,13 +110,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Pico Downloads/pico-sdk/tools/CMakeLists.txt"
   "D:/Pico Downloads/pico-sdk/tools/FindELF2UF2.cmake"
   "../CMakeLists.txt"
+  "../Examples/CMakeLists.txt"
   "CMakeFiles/3.19.3/CMakeASMCompiler.cmake"
   "CMakeFiles/3.19.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.19.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.3/CMakeSystem.cmake"
-  "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in"
+  "Examples/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in"
   "../example_auto_set_url.cmake"
   "../pico_sdk_import.cmake"
+  "../servo/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -127,7 +129,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/tools/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -197,14 +198,18 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_regs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "servo/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Examples/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
+  "Examples/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/sweep.dir/DependInfo.cmake"
-  "CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
-  "CMakeFiles/TwoServoSweep.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake"
+  "servo/CMakeFiles/pico_servo.dir/DependInfo.cmake"
+  "Examples/CMakeFiles/sweep.dir/DependInfo.cmake"
+  "Examples/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
+  "Examples/CMakeFiles/TwoServoSweep.dir/DependInfo.cmake"
   )

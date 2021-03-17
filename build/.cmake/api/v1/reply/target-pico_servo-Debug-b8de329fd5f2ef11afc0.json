@@ -1,0 +1,1246 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "servo/libpico_servo.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_dependencies",
+			"pico_define_boot_stage2",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"servo/CMakeLists.txt",
+			"D:/Pico Downloads/pico-sdk/src/rp2_common/boot_stage2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=armv6-m -mcpu=cortex-m0plus -mthumb -Og -g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/Pico-Servo/servo"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico-Servo/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_pwm/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				27,
+				29,
+				32,
+				33,
+				37,
+				38,
+				40,
+				44,
+				45,
+				46
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=armv6-m -mcpu=cortex-m0plus -mthumb -Og -g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fdata-sections"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/Pico-Servo/servo"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico-Servo/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_pwm/include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				8,
+				26,
+				28,
+				30,
+				31,
+				34,
+				35,
+				36,
+				39,
+				41,
+				42
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=armv6-m -mcpu=cortex-m0plus -mthumb -Og -g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-exceptions"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-unwind-tables"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-use-cxa-atexit"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BIT_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CMAKE_BUILD_TYPE=\"Debug\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_COPY_TO_RAM=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_DIVIDER_HARDWARE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_DOUBLE_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_FLOAT_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_INT64_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_MEM_OPS_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_FLASH=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_PRINTF_PICO=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_STDIO_UART=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PICO_USE_BLOCKED_RAM=0"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/Pico-Servo/servo"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_stdlib/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico-Servo/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_platform/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_bit_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_divider/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_int64_ops/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_stdio/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_stdio_uart/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_pwm/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				43
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d"
+		}
+	],
+	"id" : "pico_servo::@464b21be7733fb60dba3",
+	"name" : "pico_servo",
+	"nameOnDisk" : "libpico_servo.a",
+	"paths" : 
+	{
+		"build" : "servo",
+		"source" : "servo"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				27,
+				29,
+				32,
+				33,
+				37,
+				38,
+				40,
+				43,
+				44,
+				45,
+				46
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				8,
+				26,
+				28,
+				30,
+				31,
+				34,
+				35,
+				36,
+				39,
+				41,
+				42
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "servo/servo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "servo/servo.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_gpio/gpio.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_claim/claim.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_sync/sync.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_platform/platform.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_uart/uart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_divider/divider.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_time/time.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_time/timeout_helper.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_timer/timer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_sync/sem.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_sync/lock_core.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_sync/mutex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_sync/critical_section.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_util/datetime.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_util/pheap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/common/pico_util/queue.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_runtime/runtime.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_clocks/clocks.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_xosc/xosc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_pll/pll.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_vreg/vreg.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_irq/irq.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_printf/printf.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_divider/divider.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_double/double_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_double/double_init_rom.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_double/double_math.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_float/float_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_float/float_init_rom.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_float/float_math.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_standard_link/crt0.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_stdio/stdio.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "D:/Pico Downloads/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

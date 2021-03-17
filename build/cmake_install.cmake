@@ -40,6 +40,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/Pico-Servo/build/pico-sdk/cmake_install.cmake")
+  include("D:/Pico-Servo/build/servo/cmake_install.cmake")
+  include("D:/Pico-Servo/build/Examples/cmake_install.cmake")
 
 endif()
 
