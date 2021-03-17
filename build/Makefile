@@ -166,6 +166,19 @@ pico_servo\fast:
 .PHONY : pico_servo\fast
 
 #=============================================================================
+# Target rules for targets named pico_servo_object
+
+# Build rule for target.
+pico_servo_object: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico_servo_object
+.PHONY : pico_servo_object
+
+# fast build rule for target.
+pico_servo_object\fast:
+	$(MAKE) $(MAKESILENT) -f servo\CMakeFiles\pico_servo_object.dir\build.make /nologo -$(MAKEFLAGS) servo\CMakeFiles\pico_servo_object.dir\build
+.PHONY : pico_servo_object\fast
+
+#=============================================================================
 # Target rules for targets named sweep
 
 # Build rule for target.
@@ -204,6 +217,19 @@ TwoServoSweep\fast:
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\build
 .PHONY : TwoServoSweep\fast
 
+#=============================================================================
+# Target rules for targets named ServoObject
+
+# Build rule for target.
+ServoObject: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ServoObject
+.PHONY : ServoObject
+
+# fast build rule for target.
+ServoObject\fast:
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\build
+.PHONY : ServoObject\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,9 +241,11 @@ help:
 	@echo ... ELF2UF2Build
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
+	@echo ... ServoObject
 	@echo ... TwoServoSweep
 	@echo ... bs2_default
 	@echo ... pico_servo
+	@echo ... pico_servo_object
 	@echo ... sweep
 .PHONY : help
 

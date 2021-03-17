@@ -126,7 +126,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/pico_examples
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Servo
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-ld.exe
@@ -299,22 +299,10 @@ Servo_BINARY_DIR:STATIC=D:/Pico-Servo/build
 Servo_SOURCE_DIR:STATIC=D:/Pico-Servo
 
 //Value Computed by CMake
-pico_examples_BINARY_DIR:STATIC=D:/Pico-Servo/build
-
-//Value Computed by CMake
-pico_examples_SOURCE_DIR:STATIC=D:/Pico-Servo
-
-//Value Computed by CMake
 pico_sdk_BINARY_DIR:STATIC=D:/Pico-Servo/build/pico-sdk
 
 //Value Computed by CMake
 pico_sdk_SOURCE_DIR:STATIC=D:/Pico Downloads/pico-sdk
-
-//Value Computed by CMake
-sweep_BINARY_DIR:STATIC=D:/Pico-Servo/build
-
-//Value Computed by CMake
-sweep_SOURCE_DIR:STATIC=D:/Pico-Servo
 
 
 ########################
@@ -487,7 +475,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=D:/Pico Downloads/pico-sdk/src/rp2_common/boot_sta
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=D:/Pico Downloads/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=D:/Pico Downloads/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs D:/Pico Downloads/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= D:/Pico Downloads/pico-sdk/src/common D:/Pico Downloads/pico-sdk/src/rp2_common D:/Pico Downloads/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1

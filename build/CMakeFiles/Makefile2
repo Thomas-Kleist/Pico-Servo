@@ -83,6 +83,7 @@ clean: Examples\clean
 Examples\all: Examples\CMakeFiles\sweep.dir\all
 Examples\all: Examples\CMakeFiles\ELF2UF2Build.dir\all
 Examples\all: Examples\CMakeFiles\TwoServoSweep.dir\all
+Examples\all: Examples\CMakeFiles\ServoObject.dir\all
 
 .PHONY : Examples\all
 
@@ -95,6 +96,7 @@ Examples\preinstall:
 Examples\clean: Examples\CMakeFiles\sweep.dir\clean
 Examples\clean: Examples\CMakeFiles\ELF2UF2Build.dir\clean
 Examples\clean: Examples\CMakeFiles\TwoServoSweep.dir\clean
+Examples\clean: Examples\CMakeFiles\ServoObject.dir\clean
 
 .PHONY : Examples\clean
 
@@ -1470,6 +1472,7 @@ pico-sdk\tools\clean:
 
 # Recursive "all" directory target.
 servo\all: servo\CMakeFiles\pico_servo.dir\all
+servo\all: servo\CMakeFiles\pico_servo_object.dir\all
 
 .PHONY : servo\all
 
@@ -1480,6 +1483,7 @@ servo\preinstall:
 
 # Recursive "clean" directory target.
 servo\clean: servo\CMakeFiles\pico_servo.dir\clean
+servo\clean: servo\CMakeFiles\pico_servo_object.dir\clean
 
 .PHONY : servo\clean
 
@@ -1490,12 +1494,12 @@ servo\clean: servo\CMakeFiles\pico_servo.dir\clean
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=36,37 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=41 "Built target bs2_default"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 
 # Build rule for subdir invocation for target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 0
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\rule
@@ -1517,7 +1521,7 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\clean:
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num= "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=42 "Built target bs2_default_bin"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1544,12 +1548,12 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\clean:
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=38 "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num= "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
 
 # Build rule for subdir invocation for target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 0
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\rule
@@ -1571,12 +1575,12 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_as
 servo\CMakeFiles\pico_servo.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
 	$(MAKE) $(MAKESILENT) -f servo\CMakeFiles\pico_servo.dir\build.make /nologo -$(MAKEFLAGS) servo\CMakeFiles\pico_servo.dir\depend
 	$(MAKE) $(MAKESILENT) -f servo\CMakeFiles\pico_servo.dir\build.make /nologo -$(MAKEFLAGS) servo\CMakeFiles\pico_servo.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69 "Built target pico_servo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61 "Built target pico_servo"
 .PHONY : servo\CMakeFiles\pico_servo.dir\all
 
 # Build rule for subdir invocation for target.
 servo\CMakeFiles\pico_servo.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) servo\CMakeFiles\pico_servo.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 0
 .PHONY : servo\CMakeFiles\pico_servo.dir\rule
@@ -1592,20 +1596,47 @@ servo\CMakeFiles\pico_servo.dir\clean:
 .PHONY : servo\CMakeFiles\pico_servo.dir\clean
 
 #=============================================================================
+# Target rules for target servo/CMakeFiles/pico_servo_object.dir
+
+# All Build rule for target.
+servo\CMakeFiles\pico_servo_object.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
+	$(MAKE) $(MAKESILENT) -f servo\CMakeFiles\pico_servo_object.dir\build.make /nologo -$(MAKEFLAGS) servo\CMakeFiles\pico_servo_object.dir\depend
+	$(MAKE) $(MAKESILENT) -f servo\CMakeFiles\pico_servo_object.dir\build.make /nologo -$(MAKEFLAGS) servo\CMakeFiles\pico_servo_object.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81 "Built target pico_servo_object"
+.PHONY : servo\CMakeFiles\pico_servo_object.dir\all
+
+# Build rule for subdir invocation for target.
+servo\CMakeFiles\pico_servo_object.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) servo\CMakeFiles\pico_servo_object.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 0
+.PHONY : servo\CMakeFiles\pico_servo_object.dir\rule
+
+# Convenience name for target.
+pico_servo_object: servo\CMakeFiles\pico_servo_object.dir\rule
+
+.PHONY : pico_servo_object
+
+# clean rule for target.
+servo\CMakeFiles\pico_servo_object.dir\clean:
+	$(MAKE) $(MAKESILENT) -f servo\CMakeFiles\pico_servo_object.dir\build.make /nologo -$(MAKEFLAGS) servo\CMakeFiles\pico_servo_object.dir\clean
+.PHONY : servo\CMakeFiles\pico_servo_object.dir\clean
+
+#=============================================================================
 # Target rules for target Examples/CMakeFiles/sweep.dir
 
 # All Build rule for target.
 Examples\CMakeFiles\sweep.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
-Examples\CMakeFiles\sweep.dir\all: Examples\CMakeFiles\ELF2UF2Build.dir\all
 Examples\CMakeFiles\sweep.dir\all: servo\CMakeFiles\pico_servo.dir\all
+Examples\CMakeFiles\sweep.dir\all: Examples\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\depend
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target sweep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target sweep"
 .PHONY : Examples\CMakeFiles\sweep.dir\all
 
 # Build rule for subdir invocation for target.
 Examples\CMakeFiles\sweep.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 0
 .PHONY : Examples\CMakeFiles\sweep.dir\rule
@@ -1627,12 +1658,12 @@ Examples\CMakeFiles\sweep.dir\clean:
 Examples\CMakeFiles\ELF2UF2Build.dir\all:
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ELF2UF2Build.dir\depend
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ELF2UF2Build.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target ELF2UF2Build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=1,2,3 "Built target ELF2UF2Build"
 .PHONY : Examples\CMakeFiles\ELF2UF2Build.dir\all
 
 # Build rule for subdir invocation for target.
 Examples\CMakeFiles\ELF2UF2Build.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ELF2UF2Build.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 0
 .PHONY : Examples\CMakeFiles\ELF2UF2Build.dir\rule
@@ -1652,16 +1683,16 @@ Examples\CMakeFiles\ELF2UF2Build.dir\clean:
 
 # All Build rule for target.
 Examples\CMakeFiles\TwoServoSweep.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
-Examples\CMakeFiles\TwoServoSweep.dir\all: Examples\CMakeFiles\ELF2UF2Build.dir\all
 Examples\CMakeFiles\TwoServoSweep.dir\all: servo\CMakeFiles\pico_servo.dir\all
+Examples\CMakeFiles\TwoServoSweep.dir\all: Examples\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\depend
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target TwoServoSweep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target TwoServoSweep"
 .PHONY : Examples\CMakeFiles\TwoServoSweep.dir\all
 
 # Build rule for subdir invocation for target.
 Examples\CMakeFiles\TwoServoSweep.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 0
 .PHONY : Examples\CMakeFiles\TwoServoSweep.dir\rule
@@ -1675,6 +1706,35 @@ TwoServoSweep: Examples\CMakeFiles\TwoServoSweep.dir\rule
 Examples\CMakeFiles\TwoServoSweep.dir\clean:
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\clean
 .PHONY : Examples\CMakeFiles\TwoServoSweep.dir\clean
+
+#=============================================================================
+# Target rules for target Examples/CMakeFiles/ServoObject.dir
+
+# All Build rule for target.
+Examples\CMakeFiles\ServoObject.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\all
+Examples\CMakeFiles\ServoObject.dir\all: servo\CMakeFiles\pico_servo_object.dir\all
+Examples\CMakeFiles\ServoObject.dir\all: Examples\CMakeFiles\ELF2UF2Build.dir\all
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\depend
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Pico-Servo\build\CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target ServoObject"
+.PHONY : Examples\CMakeFiles\ServoObject.dir\all
+
+# Build rule for subdir invocation for target.
+Examples\CMakeFiles\ServoObject.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 43
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Pico-Servo\build\CMakeFiles 0
+.PHONY : Examples\CMakeFiles\ServoObject.dir\rule
+
+# Convenience name for target.
+ServoObject: Examples\CMakeFiles\ServoObject.dir\rule
+
+.PHONY : ServoObject
+
+# clean rule for target.
+Examples\CMakeFiles\ServoObject.dir\clean:
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\clean
+.PHONY : Examples\CMakeFiles\ServoObject.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

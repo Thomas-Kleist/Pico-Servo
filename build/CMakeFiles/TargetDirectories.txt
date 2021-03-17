@@ -137,9 +137,11 @@ D:/Pico-Servo/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 D:/Pico-Servo/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
 D:/Pico-Servo/build/servo/CMakeFiles/pico_servo.dir
 D:/Pico-Servo/build/servo/CMakeFiles/edit_cache.dir
+D:/Pico-Servo/build/servo/CMakeFiles/pico_servo_object.dir
 D:/Pico-Servo/build/servo/CMakeFiles/rebuild_cache.dir
 D:/Pico-Servo/build/Examples/CMakeFiles/sweep.dir
 D:/Pico-Servo/build/Examples/CMakeFiles/rebuild_cache.dir
 D:/Pico-Servo/build/Examples/CMakeFiles/ELF2UF2Build.dir
 D:/Pico-Servo/build/Examples/CMakeFiles/TwoServoSweep.dir
+D:/Pico-Servo/build/Examples/CMakeFiles/ServoObject.dir
 D:/Pico-Servo/build/Examples/CMakeFiles/edit_cache.dir

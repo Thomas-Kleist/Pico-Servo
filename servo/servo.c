@@ -21,7 +21,7 @@ void setServo(int servoPin, float startMillis)
     float clockDiv = 64;
     float wrap = 39062;
 
-    while (clockspeed/clockDiv/50 < 65535 && clockDiv < 256) clockDiv += 64; 
+    while (clockspeed/clockDiv/50 > 65535 && clockDiv < 256) clockDiv += 64; 
     wrap = clockspeed/clockDiv/50;
 
     pwm_config_set_clkdiv(&config, clockDiv);

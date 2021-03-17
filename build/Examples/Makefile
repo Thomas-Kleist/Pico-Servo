@@ -180,6 +180,25 @@ TwoServoSweep\fast:
 	cd D:\Pico-Servo\build\Examples
 .PHONY : TwoServoSweep\fast
 
+# Convenience name for target.
+Examples\CMakeFiles\ServoObject.dir\rule:
+	cd D:\Pico-Servo\build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\rule
+	cd D:\Pico-Servo\build\Examples
+.PHONY : Examples\CMakeFiles\ServoObject.dir\rule
+
+# Convenience name for target.
+ServoObject: Examples\CMakeFiles\ServoObject.dir\rule
+
+.PHONY : ServoObject
+
+# fast build rule for target.
+ServoObject\fast:
+	cd D:\Pico-Servo\build
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\build
+	cd D:\Pico-Servo\build\Examples
+.PHONY : ServoObject\fast
+
 D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.obj: D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.obj
 
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.obj
@@ -189,6 +208,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.obj
 
@@ -201,6 +221,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.i
 
@@ -213,6 +234,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\critical_section.c.s
 
@@ -225,6 +247,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.obj
 
@@ -237,6 +260,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.i
 
@@ -249,6 +273,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\lock_core.c.s
 
@@ -261,6 +286,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.obj
 
@@ -273,6 +299,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.i
 
@@ -285,6 +312,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\mutex.c.s
 
@@ -297,6 +325,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.obj
 
@@ -309,6 +338,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.i
 
@@ -321,6 +351,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_sync\sem.c.s
 
@@ -333,6 +364,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.obj
 
@@ -345,6 +377,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.i
 
@@ -357,6 +390,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_time\time.c.s
 
@@ -369,6 +403,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.obj
 
@@ -381,6 +416,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.i
 
@@ -393,6 +429,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_time\timeout_helper.c.s
 
@@ -405,6 +442,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.obj
 
@@ -417,6 +455,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.i
 
@@ -429,6 +468,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_util\datetime.c.s
 
@@ -441,6 +481,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.obj
 
@@ -453,6 +494,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.i
 
@@ -465,6 +507,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_util\pheap.c.s
 
@@ -477,6 +520,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.obj
 
@@ -489,6 +533,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.i
 
@@ -501,6 +546,7 @@ D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\common\pico_util\queue.c.s
 
@@ -513,6 +559,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 
@@ -525,6 +572,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
 
@@ -537,6 +585,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
 
@@ -549,6 +598,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 
@@ -561,6 +611,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i
 
@@ -573,6 +624,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.s
 
@@ -585,6 +637,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 
@@ -597,6 +650,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 
@@ -609,6 +663,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i
 
@@ -621,6 +676,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 
@@ -633,6 +689,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 
@@ -645,6 +702,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.i
 
@@ -657,6 +715,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq.c.s
 
@@ -669,6 +728,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 
@@ -681,6 +741,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 
@@ -693,6 +754,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.i
 
@@ -705,6 +767,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 
@@ -717,6 +780,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 
@@ -729,6 +793,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.i
 
@@ -741,6 +806,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_sync\sync.c.s
 
@@ -753,6 +819,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 
@@ -765,6 +832,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
 
@@ -777,6 +845,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
 
@@ -789,6 +858,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
 
@@ -801,6 +871,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.i
 
@@ -813,6 +884,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
 
@@ -825,6 +897,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 
@@ -837,6 +910,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i
 
@@ -849,6 +923,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.s
 
@@ -861,6 +936,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
 
@@ -873,6 +949,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i
 
@@ -885,6 +962,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.s
 
@@ -897,6 +975,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
 
@@ -909,6 +988,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i
 
@@ -921,6 +1001,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
 
@@ -933,6 +1014,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 
@@ -945,6 +1027,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj
 
@@ -957,6 +1040,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i
 
@@ -969,6 +1053,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.s
 
@@ -981,6 +1066,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_divider\divider.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_divider\divider.S.obj
 
@@ -993,6 +1079,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj
 
@@ -1005,6 +1092,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj
 
@@ -1017,6 +1105,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i
 
@@ -1029,6 +1118,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.s
 
@@ -1041,6 +1131,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.obj
 
@@ -1053,6 +1144,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.i
 
@@ -1065,6 +1157,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_math.c.s
 
@@ -1077,6 +1170,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj
 
@@ -1089,6 +1183,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj
 
@@ -1101,6 +1196,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj
 
@@ -1113,6 +1209,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i
 
@@ -1125,6 +1222,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.s
 
@@ -1137,6 +1235,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.obj
 
@@ -1149,6 +1248,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.i
 
@@ -1161,6 +1261,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_math.c.s
 
@@ -1173,6 +1274,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj
 
@@ -1185,6 +1287,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj
 
@@ -1197,6 +1300,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj
 
@@ -1209,6 +1313,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i
 
@@ -1221,6 +1326,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.s
 
@@ -1233,6 +1339,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj
 
@@ -1245,6 +1352,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
 
@@ -1257,6 +1365,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.i
 
@@ -1269,6 +1378,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_platform\platform.c.s
 
@@ -1281,6 +1391,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 
@@ -1293,6 +1404,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.i
 
@@ -1305,6 +1417,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_printf\printf.c.s
 
@@ -1317,6 +1430,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 
@@ -1329,6 +1443,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
 
@@ -1341,6 +1456,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 
@@ -1353,6 +1469,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 
@@ -1365,6 +1482,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i
 
@@ -1377,6 +1495,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.s
 
@@ -1389,6 +1508,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj
 
@@ -1401,6 +1521,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj
 
@@ -1413,6 +1534,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i
 
@@ -1425,6 +1547,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
 
@@ -1437,6 +1560,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 
@@ -1449,6 +1573,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i
 
@@ -1461,6 +1586,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 
@@ -1473,6 +1599,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
 
@@ -1485,6 +1612,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
 
@@ -1497,6 +1625,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 
@@ -1509,6 +1638,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 
@@ -1521,6 +1651,7 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i
 
@@ -1533,8 +1664,42 @@ D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s:
 	cd D:\Pico-Servo\build
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\sweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\sweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\TwoServoSweep.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\TwoServoSweep.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 	cd D:\Pico-Servo\build\Examples
 .PHONY : D_\Pico_Downloads\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
+
+ServoObjectExample.obj: ServoObjectExample.cpp.obj
+
+.PHONY : ServoObjectExample.obj
+
+# target to build an object file
+ServoObjectExample.cpp.obj:
+	cd D:\Pico-Servo\build
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\ServoObjectExample.cpp.obj
+	cd D:\Pico-Servo\build\Examples
+.PHONY : ServoObjectExample.cpp.obj
+
+ServoObjectExample.i: ServoObjectExample.cpp.i
+
+.PHONY : ServoObjectExample.i
+
+# target to preprocess a source file
+ServoObjectExample.cpp.i:
+	cd D:\Pico-Servo\build
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\ServoObjectExample.cpp.i
+	cd D:\Pico-Servo\build\Examples
+.PHONY : ServoObjectExample.cpp.i
+
+ServoObjectExample.s: ServoObjectExample.cpp.s
+
+.PHONY : ServoObjectExample.s
+
+# target to generate assembly for a file
+ServoObjectExample.cpp.s:
+	cd D:\Pico-Servo\build
+	$(MAKE) $(MAKESILENT) -f Examples\CMakeFiles\ServoObject.dir\build.make /nologo -$(MAKEFLAGS) Examples\CMakeFiles\ServoObject.dir\ServoObjectExample.cpp.s
+	cd D:\Pico-Servo\build\Examples
+.PHONY : ServoObjectExample.cpp.s
 
 SweepExample.obj: SweepExample.c.obj
 
@@ -1611,6 +1776,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ELF2UF2Build
+	@echo ... ServoObject
 	@echo ... TwoServoSweep
 	@echo ... sweep
 	@echo ... D_/Pico_Downloads/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -1726,6 +1892,9 @@ help:
 	@echo ... D_/Pico_Downloads/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 	@echo ... D_/Pico_Downloads/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 	@echo ... D_/Pico_Downloads/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+	@echo ... ServoObjectExample.obj
+	@echo ... ServoObjectExample.i
+	@echo ... ServoObjectExample.s
 	@echo ... SweepExample.obj
 	@echo ... SweepExample.i
 	@echo ... SweepExample.s
