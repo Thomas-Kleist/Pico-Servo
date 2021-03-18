@@ -5,9 +5,12 @@
 #include "hardware/pwm.h"
 #include "hardware/clocks.h"
 
+float clockDiv = 64;
+float wrap = 39062;
+
 void setMillis(int servoPin, float millis)
 {
-    pwm_set_gpio_level(servoPin, (millis/20000.f)*39062.f);
+    pwm_set_gpio_level(servoPin, (millis/20000.f)*clockDiv);
 }
 
 void setServo(int servoPin, float startMillis)
@@ -18,8 +21,8 @@ void setServo(int servoPin, float startMillis)
     pwm_config config = pwm_get_default_config();
     
     uint64_t clockspeed = clock_get_hz(5);
-    float clockDiv = 64;
-    float wrap = 39062;
+    clockDiv = 64;
+    wrap = 39062;
 
     while (clockspeed/clockDiv/50 > 65535 && clockDiv < 256) clockDiv += 64; 
     wrap = clockspeed/clockDiv/50;
