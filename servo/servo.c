@@ -10,7 +10,7 @@ float wrap = 39062;
 
 void setMillis(int servoPin, float millis)
 {
-    pwm_set_gpio_level(servoPin, (millis/20000.f)*clockDiv);
+    pwm_set_gpio_level(servoPin, (millis/20000.f)*wrap);
 }
 
 void setServo(int servoPin, float startMillis)
